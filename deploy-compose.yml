@@ -16,7 +16,7 @@ services:
     extra_hosts:
     - "host.docker.internal:host-gateway"
     env_file:
-      - .env
+      - stack.env
     environment:
       - HOST=0.0.0.0
       - NODE_ENV=production
